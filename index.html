@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./src/output.css">
+    <title>WebsiteDesigners</title>
+
+</head>
+<body class="">
+    <div class="flex justify-between ">
+
+        <!-- Logo -->
+         <div class="logo">
+            
+         </div>
+         <div class="px-4 py-10">
+            <h1 class="text-red-500 text font-bold leading-3 ">UMMITECH</h1>
+            <h1 class="text-red-500 font-bold">WEBSITE</h1>
+            <h1 class="text-red-500 font-bold leading-3">DESIGNER</h1>
+         </div>
+
+        <!-- Navigation Bar -->
+         <ul class="hidden md:flex justify-evenly space-x-6 text-center y-10 p-10">
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Home</a></li>
+
+            <li><a href="#" class="block hover:text-blue-500 text-2xl">About</a></li>
+
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Our Services 
+                <i class="fa-solid fa-angle-down"></i></a></li>                     
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Courses</a></li>           
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Portfolio</a></li>
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Resources 
+                <i class="fa-solid fa-angle-down"></i></a></li>
+            <li>
+                <a href="#" class="block hover:text-blue-500 text-2xl">Contact</a></li>
+         </ul>
+
+         <div class="flex items-center space-x-4 y-10 p-10">
+            <div class="">
+                <i class="fa-solid fa-user-plus text-white text-xl bg-red-500 rounded-full p-3"></i>
+            </div>
+
+            <!-- Hamburger Bar -->
+            <button onclick="toggleMenu()" class="space-y-1 md:hidden">
+                <span class="block w-8 h-1 bg-black rounded-full"></span>
+                <span class="block w-8 h-1 bg-black rounded-full"></span>
+                <span class="block w-8 h-1 bg-black rounded-full"></span>
+            </button>
+         </div>
+    </div>
+    <div class="flex bg-gray-800 ">  
+        <!-- large screen -->
+          <div class="hidden md:block pt-40 px-20">
+        <h1 class=" text-white text-8xl font-semibold ">UMMITECH<span class="text-red-500"> WEBSITE</span></h1>
+        <h1 class=" text-white text-8xl font-semibold">DESIGNER</h1></div>
+        <!-- small screen -->
+         <div class="md:hidden pt-20 px-8 ">
+        <h1 class="text-white text-6xl font-semibold leading-tight">UMMITECH</h1>
+        <h1 class="text-red-700 text-6xl font-semibold leading-tight">WEBSITE</h1>
+        <h1 class="text-white text-6xl font-semibold leading-tight">DESIGNER</h1>
+        </div>
+
+    </div> 
+    </div>
+</body>
+</html>
