@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,65 +9,91 @@
 
 </head>
 <body class="">
-    <div class="flex justify-between ">
-
-        <!-- Logo -->
-         <div class="logo">
+        <div class="flex justify-between ">
             
-         </div>
-         <div class="px-4 py-10">
-            <h1 class="text-red-500 text font-bold leading-3 ">UMMITECH</h1>
-            <h1 class="text-red-500 font-bold">WEBSITE</h1>
-            <h1 class="text-red-500 font-bold leading-3">DESIGNER</h1>
-         </div>
-
-        <!-- Navigation Bar -->
-         <ul class="hidden md:flex justify-evenly space-x-6 text-center y-10 p-10">
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Home</a></li>
-
-            <li><a href="#" class="block hover:text-blue-500 text-2xl">About</a></li>
-
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Our Services 
-                <i class="fa-solid fa-angle-down"></i></a></li>                     
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Courses</a></li>           
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Portfolio</a></li>
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Resources 
-                <i class="fa-solid fa-angle-down"></i></a></li>
-            <li>
-                <a href="#" class="block hover:text-blue-500 text-2xl">Contact</a></li>
-         </ul>
-
-         <div class="flex items-center space-x-4 y-10 p-10">
-            <div class="">
-                <i class="fa-solid fa-user-plus text-white text-xl bg-red-500 rounded-full p-3"></i>
+            <!-- Logo -->
+        <div class="flex ">
+            <div class="flex rounded-full border-6 border-red-500 w-10 h-10 items-center justify-center mt-10 ml-10">
+                <i class="fa-solid fa-angle-left text-red-500 font-bold"></i>
+                <i class="fa-solid fa-angle-right text-red-500 font-bold"></i>
+            </div>           
+            <!-- Large Screen Logo -->
+            <div class="hidden md:block px-2 py-10">
+                <h1 class="text-red-500 text font-bold text-xs leading-3 ">UMMITECH</h1>
+                <h1 class="text-red-500 font-bold text-xs">WEBSITE</h1>
+                <h1 class="text-red-500 font-bold text-xs leading-3">DESIGNER</h1>
             </div>
-
-            <!-- Hamburger Bar -->
-            <button onclick="toggleMenu()" class="space-y-1 md:hidden">
-                <span class="block w-8 h-1 bg-black rounded-full"></span>
-                <span class="block w-8 h-1 bg-black rounded-full"></span>
-                <span class="block w-8 h-1 bg-black rounded-full"></span>
-            </button>
-         </div>
-    </div>
-    <div class="flex bg-gray-800 ">  
-        <!-- large screen -->
-          <div class="hidden md:block pt-40 px-20">
-        <h1 class=" text-white text-8xl font-semibold ">UMMITECH<span class="text-red-500"> WEBSITE</span></h1>
-        <h1 class=" text-white text-8xl font-semibold">DESIGNER</h1></div>
-        <!-- small screen -->
-         <div class="md:hidden pt-20 px-8 ">
-        <h1 class="text-white text-6xl font-semibold leading-tight">UMMITECH</h1>
-        <h1 class="text-red-700 text-6xl font-semibold leading-tight">WEBSITE</h1>
-        <h1 class="text-white text-6xl font-semibold leading-tight">DESIGNER</h1>
+        
+            <!-- Small Screen Logo -->
+            <div class="md:hidden px-2 py-10">
+                <h1 class="text-red-500 text font-bold text-xs leading-3 ">UMMITECH</h1>
+                <h1 class="text-red-500 font-bold text-xs">WEBSITE</h1>
+                <h1 class="text-red-500 font-bold text-xs leading-3">DESIGNER</h1>
+            </div>
         </div>
+            <!-- Navigation Bar -->
+            <ul class="hidden md:flex justify-evenly space-x-6 text-center y-10 p-10">
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Home</a></li>
 
-    </div> 
-    </div>
+                <li><a href="#" class="block hover:text-blue-500 text-2xl">About</a></li>
+
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Our Services 
+                    <i class="fa-solid fa-angle-down"></i></a></li>                     
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Courses</a></li>           
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Portfolio</a></li>
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Resources 
+                    <i class="fa-solid fa-angle-down"></i></a></li>
+                <li>
+                    <a href="#" class="block hover:text-blue-500 text-2xl">Contact</a></li>
+            </ul>
+
+            <div class="flex items-center space-x-4 y-10 p-10">
+                <div class="">
+                    <i class="fa-solid fa-user-plus text-white text-xl bg-red-500 rounded-full p-4"></i>
+                </div>
+
+                <!-- Hamburger Bar -->
+                <button onclick="toggleMenu()" class="space-y-1 md:hidden">
+                    <span class="block w-8 h-1 bg-black rounded-full"></span>
+                    <span class="block w-8 h-1 bg-black rounded-full"></span>
+                    <span class="block w-8 h-1 bg-black rounded-full"></span>
+                </button>
+            </div>
+        </div>
+        <div class=" bg-gray-800 ">  
+            <!-- large screen -->
+            <div class="hidden md:block pt-50 px-20">
+            <p class=" text-white text-8xl font-semibold ">UMMITECH<span class="text-red-500">  WEBSITE</span>
+             <br>DESIGNER</h1>
+            </div>    
+            <!-- small screen -->
+            <div class="md:hidden pt-30 px-10 ">
+            <h1 class="text-white text-5xl font-semibold leading-tight">UMMITECH <br><span class="text-red-500">WEBSITE</span><br>DESIGNER</h1>
+            </div>
+            <div class="pt-6">
+                <p class="md:hidden text-gray-300 text-2xl font-semibold leading-normal px-10">Partner with one of the Best Web Designer in Nigeria to<br>
+                    take your brand to the next level. As a top Web Design <br>Company in Lagos, we deliver powerful web solutions that <br>drive traffic, leads, and sales.
+                </p>
+                 <p class="hidden md:block text-gray-300 text-3xl font-semibold leading-normal px-20 pt-6">Partner with one of the Best Web Designer in Nigeria to
+                    take your brand to the 
+                    <br> next level. As a top Web Design Company in Lagos, we deliver powerful web <br>solutions that drive traffic, leads, and sales.
+                </p>
+            </div>
+           <div class="flex mb-10">
+            <!-- large screen buttons -->
+                <button class="hidden md:block bg-red-500 text-white px-15 py-8 rounded-2xl text-2xl font-bold mt-15 ml-20"><i class="fa-solid fa-envelope text-white"></i> EMAIL</button>
+                <button class="hidden md:block bg-green-600 text-white px-15 py-8 rounded-2xl text-2xl font-bold mt-15 ml-10"><i class="fa-brands fa-whatsapp text-white"></i>  WHATSAPP</button>
+            <!-- small screen buttons -->
+                <button class="md:hidden bg-red-500 text-white px-10 py-5 rounded-2xl text-xl font-bold mt-10 ml-10"><i class="fa-solid fa-envelope text-white"></i> EMAIL</button>
+                <button class="md:hidden bg-green-600 text-white px-10 py-5 rounded-2xl text-xl font-bold mt-10 ml-10 mb-"><i class="fa-brands fa-whatsapp text-white"></i>  WHATSAPP</button>
+           
+           </div>
+        </div> 
+    
 </body>
 </html>
